@@ -56,8 +56,6 @@ instance : Transport Socket.Client where
 
 namespace Internal
 
-open Async in
-
 /--
 Shared state for a bidirectional mock connection.
 -/
